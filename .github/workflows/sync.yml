@@ -4,9 +4,9 @@ on:
     branches:
       - internal/develop
 env:
-  EXTERNAL_REPO: "Danny213123/test-sync"
-  EXTERNAL_BRANCH: "internal/develop"
-  INTERNAL_BRANCH: "internal/main"
+  EXTERNAL_REPO: "Danny213123/test-sync-external"
+  EXTERNAL_BRANCH: "main"
+  INTERNAL_BRANCH: "develop"
 jobs:
   sync-to-external:
     runs-on: ubuntu-latest
